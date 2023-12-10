@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid;
+    width: 50%;
+    min-height: 100vh;
+    box-sizing: border-box;
+ 
+
+}
+
+.modal-infos{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    width: 50%;
+    display: none;
+}
+.modal-ajout{
+    position: relative;
+    bottom: 10em;
+    left: 10em;
+    display: none;
+   
+    justify-content: center;
+    border: 1px solid;
+   width: 60%;
+    background-color: rgb(177, 172, 172);
+}
